@@ -1,0 +1,104 @@
+text,intent
+find my resume pdf,FILE_SEARCH
+locate my resume file,FILE_SEARCH
+search for resume document,FILE_SEARCH
+find my project report,FILE_SEARCH
+locate assignment document,FILE_SEARCH
+search for notes file,FILE_SEARCH
+find lecture notes,FILE_SEARCH
+locate my certificate pdf,FILE_SEARCH
+search for invoice file,FILE_SEARCH
+find budget spreadsheet,FILE_SEARCH
+find image file,FILE_SEARCH
+locate presentation ppt,FILE_SEARCH
+search for syllabus pdf,FILE_SEARCH
+find my offer letter,FILE_SEARCH
+locate experience letter,FILE_SEARCH
+search for code file,FILE_SEARCH
+find python script,FILE_SEARCH
+locate java file,FILE_SEARCH
+search for text document,FILE_SEARCH
+find downloaded pdf,FILE_SEARCH
+locate zip file,FILE_SEARCH
+search for music file,FILE_SEARCH
+find video file,FILE_SEARCH
+locate screenshot image,FILE_SEARCH
+search for exam paper,FILE_SEARCH
+
+get the latest downloaded file,FILE_LATEST
+show me the most recent file,FILE_LATEST
+what is the newest file,FILE_LATEST
+open the last modified file,FILE_LATEST
+get recently created file,FILE_LATEST
+show latest document,FILE_LATEST
+find newest download,FILE_LATEST
+what was the last file saved,FILE_LATEST
+show me latest pdf,FILE_LATEST
+get most recent document,FILE_LATEST
+latest file in downloads,FILE_LATEST
+recently edited file,FILE_LATEST
+last opened file,FILE_LATEST
+newest file on desktop,FILE_LATEST
+most recent screenshot,FILE_LATEST
+latest project file,FILE_LATEST
+recently added file,FILE_LATEST
+newest text file,FILE_LATEST
+last modified document,FILE_LATEST
+latest image file,FILE_LATEST
+latest video file,FILE_LATEST
+recent file from folder,FILE_LATEST
+newest report file,FILE_LATEST
+latest spreadsheet,FILE_LATEST
+last saved file,FILE_LATEST
+
+draft an email to hr,EMAIL_DRAFT
+write a professional email,EMAIL_DRAFT
+compose an email to manager,EMAIL_DRAFT
+create a leave request email,EMAIL_DRAFT
+write an email asking for leave,EMAIL_DRAFT
+draft a follow up email,EMAIL_DRAFT
+compose job application email,EMAIL_DRAFT
+write email to recruiter,EMAIL_DRAFT
+draft meeting request email,EMAIL_DRAFT
+compose apology email,EMAIL_DRAFT
+write a formal email,EMAIL_DRAFT
+draft email asking for update,EMAIL_DRAFT
+compose internship application email,EMAIL_DRAFT
+write email to professor,EMAIL_DRAFT
+draft feedback email,EMAIL_DRAFT
+compose thank you email,EMAIL_DRAFT
+write resignation email,EMAIL_DRAFT
+draft offer acceptance email,EMAIL_DRAFT
+compose salary negotiation email,EMAIL_DRAFT
+write email to client,EMAIL_DRAFT
+draft project submission email,EMAIL_DRAFT
+compose reminder email,EMAIL_DRAFT
+write cold email,EMAIL_DRAFT
+draft complaint email,EMAIL_DRAFT
+compose invitation email,EMAIL_DRAFT
+
+summarize this text,TEXT_SUMMARY
+give a short summary,TEXT_SUMMARY
+summarize these notes,TEXT_SUMMARY
+make a brief summary,TEXT_SUMMARY
+shorten this paragraph,TEXT_SUMMARY
+summarize the document,TEXT_SUMMARY
+give key points summary,TEXT_SUMMARY
+create bullet point summary,TEXT_SUMMARY
+summarize meeting notes,TEXT_SUMMARY
+condense this text,TEXT_SUMMARY
+summarize article,TEXT_SUMMARY
+brief summary of content,TEXT_SUMMARY
+summarize lecture notes,TEXT_SUMMARY
+extract main ideas summary,TEXT_SUMMARY
+summarize report,TEXT_SUMMARY
+make concise summary,TEXT_SUMMARY
+summarize explanation,TEXT_SUMMARY
+short summary please,TEXT_SUMMARY
+summarize text quickly,TEXT_SUMMARY
+give overview summary,TEXT_SUMMARY
+summarize description,TEXT_SUMMARY
+make summary points,TEXT_SUMMARY
+summarize content in short,TEXT_SUMMARY
+brief overview summary,TEXT_SUMMARY
+summarize paragraph,TEXT_SUMMARY
