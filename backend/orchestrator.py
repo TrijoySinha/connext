@@ -1,6 +1,6 @@
-from connectors.file_connector import search_file, latest_file
-from connectors.email_connector import draft_email
-from connectors.text_connector import summarize_text
+from backend.connectors.file_connector import search_file, latest_file
+from backend.connectors.email_connector import draft_email
+from backend.connectors.text_connector import summarize_text
 
 def handle_intent(intent: str, user_input: str):
     if intent == "UNKNOWN":

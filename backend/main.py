@@ -1,19 +1,15 @@
-from intent.predict import predict_intent
-from orchestrator import handle_intent
+from fastapi import FastAPI
+from pydantic import BaseModel
+from backend.intent.embedding_intent import predict_intent_embedding
+from backend.orchestrator import handle_intent
 
-def main():
-    print("Connext AI started. Type 'exit' to quit.\n")
+app = FastAPI()
 
-    while True:
-        user_input = input(">> ")
+class Command(BaseModel):
+    text: str
 
-        if user_input.lower() in ["exit", "quit"]:
-            break
-
-        intent = predict_intent(user_input)
-        result = handle_intent(intent, user_input)
-
-        print(f"[{intent}] → {result}\n")
-
-if __name__ == "__main__":
-    main()
+@app.post("/command")
+def run_command(cmd: Command):
+    intent = predict_intent_embedding(cmd.text)
+    result = handle_intent(intent, cmd.text)
+    return {"intent": intent, "result": result}
